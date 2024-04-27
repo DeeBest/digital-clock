@@ -36,3 +36,31 @@ footer {
   font-size: 1.4rem;
   font-weight: bold;
 }
+
+#clock-container {
+  display: flex;
+  gap: 5px;
+}
+#clock-container div {
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.units {
+  font-size: 2.5rem;
+}
+.text {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
